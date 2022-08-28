@@ -4,13 +4,15 @@ using UnityEngine;
 
 using UnityEngine.XR;
 using UnityEngine.XR.ARFoundation;
-
+using UnityEngine.UI;
+using TMPro;
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class ImageTracking : MonoBehaviour
 {
     [SerializeField]
     private GameObject[] placeablePrefabs;
 
+    
 
     private Dictionary<string, GameObject> spawnedPrefabs = new Dictionary<string, GameObject>();
 
@@ -26,6 +28,7 @@ public class ImageTracking : MonoBehaviour
             spawnedPrefabs.Add(prefab.name, newPrefab);
         }
     }
+    
 
     private void OnEnable() {
         trackedImageManager.trackedImagesChanged += ImageChanged;
@@ -65,4 +68,6 @@ public class ImageTracking : MonoBehaviour
 
     }
 
+    
+    
 }

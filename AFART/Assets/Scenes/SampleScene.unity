@@ -348,7 +348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaneManager: {fileID: 0}
-  RaycastManager: {fileID: 0}
+  RaycastManager: {fileID: 984980639}
   LockedPlane: {fileID: 0}
 --- !u!114 &984980639
 MonoBehaviour:

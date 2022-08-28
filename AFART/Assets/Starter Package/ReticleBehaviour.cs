@@ -47,7 +47,7 @@ public class ReticleBehaviour : MonoBehaviour
 
         CurrentPlane = null;
         ARRaycastHit? hit = null;
-        if (hits.Count > 0) ;
+        if (hits.Count > 0) 
         {
             // If you don't have a locked plane already...
             ARPlane lockedPlane = drivingSurfaceManager.LockedPlane;
