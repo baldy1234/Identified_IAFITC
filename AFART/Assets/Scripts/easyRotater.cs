@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class easyRotater : MonoBehaviour
 {
+    [SerializeField]
+    float speed;
     private void Update()
     {
-        transform.Rotate(0, 3, 0);
+        transform.Rotate(0, speed, 0);
     }
 }

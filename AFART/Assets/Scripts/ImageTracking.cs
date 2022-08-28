@@ -25,7 +25,9 @@ public class ImageTracking : MonoBehaviour
         {
             GameObject newPrefab = Instantiate(prefab, Vector3.zero, Quaternion.identity);
             newPrefab.name = prefab.name;
+            newPrefab.SetActive(false);
             spawnedPrefabs.Add(prefab.name, newPrefab);
+
         }
     }
     
