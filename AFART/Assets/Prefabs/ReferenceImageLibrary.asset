@@ -21,9 +21,19 @@ MonoBehaviour:
       m_GuidLow: 5683097476581183747
       m_GuidHigh: 6672163018136467084
     m_SerializedTextureGuid:
-      m_GuidLow: 6076575873610999855
-      m_GuidHigh: 15097333646543687944
+      m_GuidLow: 2685299339151774947
+      m_GuidHigh: 12688992167913406585
     m_Size: {x: 0.1, y: 0.1}
     m_SpecifySize: 1
-    m_Name: BearMarker
+    m_Name: BearCube
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4848348941055708284
+      m_GuidHigh: 17564587302593598120
+    m_SerializedTextureGuid:
+      m_GuidLow: 13228340842980335501
+      m_GuidHigh: 13298221408726008825
+    m_Size: {x: 0.107317075, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: CubeCollection
     m_Texture: {fileID: 0}
